@@ -1,0 +1,26 @@
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    width: 50%;
+    margin: 25px auto;
+}
+
+li {
+    margin: 5px 15px;
+}
+
+.tab_label button {
+    font-size: 1em;
+    border: 0;
+    background-color: white;
+}
+
+li.tab_label[class~='active'] {
+    border-bottom: 3px dotted #a00;
+}
+
+.tab_label[class~='active'] button {
+    color: #a00;
+}

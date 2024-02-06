@@ -1,0 +1,8 @@
+.row-display {
+  display: flex;
+  flex-direction: row;
+}
+
+.row-display > span {
+  margin: 20px;
+}
